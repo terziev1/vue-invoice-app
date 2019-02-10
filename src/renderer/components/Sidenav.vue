@@ -4,7 +4,6 @@
     :mini-variant.sync="mini"
     hide-overlay
     stateless
-    width="240"
     dark
     class="mr-3"
   >
@@ -72,5 +71,6 @@
   }
 </script>
 <style>
+
 </style>
 

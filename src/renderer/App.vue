@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <sidenav></sidenav>
-    <router-view></router-view>
+    <v-container fluid class="mt-0">
+      <router-view></router-view>
+    </v-container>
   </div>
 </template>
 
@@ -17,7 +19,7 @@
 <style lang="scss">
 #app{
   height: 100vh;
-  width: 100vh;
+  width: 100vw;
   overflow: hidden;
   display: flex;
 }
