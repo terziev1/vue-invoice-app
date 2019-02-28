@@ -7,7 +7,15 @@
             <v-toolbar-title>Invoice</v-toolbar-title>
           </v-toolbar>
           <v-card-text>
-                {{typeof inv.invoice}}
+                <p>Name:{{inv.invoice.fullName}}</p>
+                <p>Company: {{inv.invoice.company}}</p>
+                <p>Country: {{inv.invoice.country}}</p>
+                <p>Address: {{inv.invoice.address}}</p>
+                <p>Product: {{inv.invoice.product}}</p>
+                <p>Price: {{inv.invoice.price}}$ Quantity: {{inv.invoice.qty}}</p>
+                <v-btn color="pink" fab dark small absolute bototm right>
+                  <v-icon>add</v-icon>
+                </v-btn>
           </v-card-text>
         </v-card>
       </v-flex>
