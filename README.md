@@ -1,5 +1,6 @@
 # invoice-app
 
+Electron.js + Vue.js invoice application. The idea behind it is to make the proccess of invoicing for freelancers easier.
 
 #### Build Setup
 
